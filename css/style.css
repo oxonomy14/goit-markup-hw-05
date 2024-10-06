@@ -563,7 +563,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-form {
   display: flex;
@@ -699,7 +699,7 @@ img {
   padding-top: 24px;
 }
 
-/* ----------------- FORM ------------- */
+/* ----------------- FORM MODAL-WINDOW ------------- */
 
 .form-order-service {
   padding: 16px 0px 24px;
