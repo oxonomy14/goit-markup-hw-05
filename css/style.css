@@ -576,7 +576,18 @@ img {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #fff;
 }
+
+.footer-form-input::placeholder {
+  color: #ffffff;
+}
+
 .footer-form-button {
   display: flex;
   align-items: center;
@@ -585,14 +596,10 @@ img {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   border-style: none;
-}
-
-.footer-form-button-text {
-  font-family: "Roboto", sans-serif;
+  min-width: 165px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -604,6 +611,10 @@ img {
 .footer-form-button:hover,
 .footer-form-button:focus {
   background-color: #404bbf;
+}
+
+.footer-form-button-svg {
+  margin-left: 16px;
 }
 
 /* ------------- MODAL WINDOW ------------------- */
