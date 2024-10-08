@@ -681,45 +681,47 @@
           Leave your contacts and we will call you back
         </p>
         <form class="form-order-service" name="order-service">
-          <label class="form-order-service-label" for="username">Name</label>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="Jon Miller"
-            autofocus
-          />
-
-          <label>
-            Phone
+          <div class="form-order-service-container">
+            <label class="form-order-service-label" for="username">Name</label>
             <input
-              type="tel"
-              name="phone"
-              placeholder="+380 97 456-89-56"
-              required
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Jon Miller"
+              autofocus
             />
-          </label>
-          <label>
-            Email
-            <input
-              type="email"
-              name="email"
-              placeholder="jon@tokad.com"
-              required
-          /></label>
-          <label>
-            Comment
-            <textarea
-              name="comments"
-              rows="5"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-          <label>
-            <input type="checkbox" name="agree" required />
-            I accept the terms and conditions of the <a>Privacy Policy</a>
-          </label>
-          <button type="submit">Send</button>
+
+            <label>
+              Phone
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+380 97 456-89-56"
+                required
+              />
+            </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="jon@tokad.com"
+                required
+            /></label>
+            <label>
+              Comment
+              <textarea
+                name="comments"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+            <label>
+              <input type="checkbox" name="agree" required />
+              I accept the terms and conditions of the <a>Privacy Policy</a>
+            </label>
+            <button type="submit">Send</button>
+          </div>
         </form>
       </div>
     </div>
