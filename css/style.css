@@ -687,7 +687,7 @@ img {
 
 .modal-btn-close-svg:hover,
 .modal-btn-close-svg:focus {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-order-service-title {
@@ -697,7 +697,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 24px;
+  margin-bottom: 24px;
 }
 
 /* ----------------- FORM MODAL-WINDOW ------------- */
