@@ -683,45 +683,62 @@
         <form class="form-order-service" name="order-service">
           <div class="form-order-service-container">
             <label class="form-order-service-label" for="username">Name</label>
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Jon Miller"
-              autofocus
-            />
-
-            <label>
-              Phone
+            <div class="form-order-service-input-container">
               <input
+                class="form-order-service-input"
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Jon Miller"
+                autofocus
+              />
+              <svg class="form-order-service-input-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-username"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-order-service-container">
+            <label class="form-order-service-label" for="phone"> Phone </label>
+            <div class="form-order-service-input-container">
+              <input
+                class="form-order-service-input"
                 type="tel"
                 name="phone"
                 placeholder="+380 97 456-89-56"
                 required
               />
-            </label>
-            <label>
-              Email
+            </div>
+          </div>
+          <div class="form-order-service-container">
+            <label class="form-order-service-label" for="email"> Email </label>
+
+            <div class="form-order-service-input-container">
               <input
+                class="form-order-service-input"
                 type="email"
                 name="email"
                 placeholder="jon@tokad.com"
                 required
-            /></label>
-            <label>
-              Comment
+              />
+            </div>
+          </div>
+          <div class="form-order-service-container">
+            <label class="form-order-service-label" for="comments">
+              Comment</label
+            >
+            <div class="form-order-service-input-container">
               <textarea
                 name="comments"
                 rows="5"
                 placeholder="Text input"
               ></textarea>
-            </label>
-            <label>
-              <input type="checkbox" name="agree" required />
-              I accept the terms and conditions of the <a>Privacy Policy</a>
-            </label>
-            <button type="submit">Send</button>
+            </div>
           </div>
+          <label>
+            <input type="checkbox" name="agree" required />
+            I accept the terms and conditions of the <a>Privacy Policy</a>
+          </label>
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>
