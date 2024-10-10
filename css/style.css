@@ -774,7 +774,12 @@ img {
   margin-bottom: 24px;
 }
 
-.form-order-service-input-checkbox {
+.form-order-service-input-checkbox:checked
+  + .form-order-service-label-checkbox
+  > .form-order-service-label-checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .form-order-service-label-checkbox {
@@ -798,6 +803,10 @@ img {
   fill: transparent;
 }
 
+.form-order-service-label-checkbox-span-link {
+  color: #4d5ae5;
+}
+
 .form-order-service-btn {
   display: block;
   min-width: 169px;
@@ -817,8 +826,4 @@ img {
 .form-order-service-btn:focus {
   color: #ffffff;
   background-color: #4d5ae5;
-}
-
-.form-order-service-label-checkbox-span-link {
-  color: #4d5ae5;
 }
